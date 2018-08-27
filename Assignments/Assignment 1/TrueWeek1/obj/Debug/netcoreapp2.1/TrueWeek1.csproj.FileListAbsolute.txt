@@ -1,0 +1,11 @@
+D:\VSCodeFolder\TrueWeek1\bin\Debug\netcoreapp2.1\TrueWeek1.deps.json
+D:\VSCodeFolder\TrueWeek1\bin\Debug\netcoreapp2.1\TrueWeek1.runtimeconfig.json
+D:\VSCodeFolder\TrueWeek1\bin\Debug\netcoreapp2.1\TrueWeek1.runtimeconfig.dev.json
+D:\VSCodeFolder\TrueWeek1\bin\Debug\netcoreapp2.1\TrueWeek1.dll
+D:\VSCodeFolder\TrueWeek1\bin\Debug\netcoreapp2.1\TrueWeek1.pdb
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.csprojAssemblyReference.cache
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.csproj.CoreCompileInputs.cache
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.AssemblyInfoInputs.cache
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.AssemblyInfo.cs
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.dll
+D:\VSCodeFolder\TrueWeek1\obj\Debug\netcoreapp2.1\TrueWeek1.pdb
