@@ -1,0 +1,11 @@
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.csprojAssemblyReference.cache
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.csproj.CoreCompileInputs.cache
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.AssemblyInfoInputs.cache
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.AssemblyInfo.cs
+D:\VSCodeFolder\wapi-client\bin\Debug\netcoreapp2.1\wapi-client.deps.json
+D:\VSCodeFolder\wapi-client\bin\Debug\netcoreapp2.1\wapi-client.runtimeconfig.json
+D:\VSCodeFolder\wapi-client\bin\Debug\netcoreapp2.1\wapi-client.runtimeconfig.dev.json
+D:\VSCodeFolder\wapi-client\bin\Debug\netcoreapp2.1\wapi-client.dll
+D:\VSCodeFolder\wapi-client\bin\Debug\netcoreapp2.1\wapi-client.pdb
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.dll
+D:\VSCodeFolder\wapi-client\obj\Debug\netcoreapp2.1\wapi-client.pdb

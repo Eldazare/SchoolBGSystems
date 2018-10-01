@@ -1,0 +1,14 @@
+D:\VSCodeFolder\Week2\bin\Debug\netcoreapp2.1\Week2.deps.json
+D:\VSCodeFolder\Week2\bin\Debug\netcoreapp2.1\Week2.runtimeconfig.json
+D:\VSCodeFolder\Week2\bin\Debug\netcoreapp2.1\Week2.runtimeconfig.dev.json
+D:\VSCodeFolder\Week2\bin\Debug\netcoreapp2.1\Week2.dll
+D:\VSCodeFolder\Week2\bin\Debug\netcoreapp2.1\Week2.pdb
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.csprojAssemblyReference.cache
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.csproj.CoreCompileInputs.cache
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.RazorAssemblyInfo.cache
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.RazorAssemblyInfo.cs
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.AssemblyInfoInputs.cache
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.AssemblyInfo.cs
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.RazorTargetAssemblyInfo.cache
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.dll
+D:\VSCodeFolder\Week2\obj\Debug\netcoreapp2.1\Week2.pdb

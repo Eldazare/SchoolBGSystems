@@ -1,0 +1,14 @@
+D:\VSCodeFolder\web-api\bin\Debug\netcoreapp2.1\web-api.deps.json
+D:\VSCodeFolder\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.json
+D:\VSCodeFolder\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.dev.json
+D:\VSCodeFolder\web-api\bin\Debug\netcoreapp2.1\web-api.dll
+D:\VSCodeFolder\web-api\bin\Debug\netcoreapp2.1\web-api.pdb
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.csprojAssemblyReference.cache
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.csproj.CoreCompileInputs.cache
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cache
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cs
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfoInputs.cache
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfo.cs
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.RazorTargetAssemblyInfo.cache
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.dll
+D:\VSCodeFolder\web-api\obj\Debug\netcoreapp2.1\web-api.pdb

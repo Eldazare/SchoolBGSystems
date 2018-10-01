@@ -1,0 +1,14 @@
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\hostpolicy.dll
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\hostfxr.dll
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.exe
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.deps.json
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.runtimeconfig.json
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.runtimeconfig.dev.json
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.dll
+D:\VSCodeFolder\wapi-client\bin\Release\netcoreapp2.1\win10-x64\wapi-client.pdb
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.csprojAssemblyReference.cache
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.csproj.CoreCompileInputs.cache
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.AssemblyInfoInputs.cache
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.AssemblyInfo.cs
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.dll
+D:\VSCodeFolder\wapi-client\obj\Release\netcoreapp2.1\win10-x64\wapi-client.pdb
