@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,17 @@ namespace Week2
             services.UseRepository(new MongoRepository());
             services.UsePlayersProcessor();
             services.UseItemsProcessor();
+
+            //services.AddAuthentication(Microsoft.AspNetCore.Server.IISIntegration.IISDefaults.AuthenticationScheme);
+            /*services.AddAuthorization(options =>{
+                options.AddPolicy("Admin", policy => policy.RequireClaim("Status", "Admin"));
+            });*/
+            /*
+            services.AddAuthentication(sharedOptions =>{
+                sharedOptions.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                sharedOptions.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            });
+            */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +55,8 @@ namespace Week2
             {
                 app.UseHsts();
             }
+
+            app.UseAuthMiddleware();
 
             //app.UseHttpsRedirection();
             app.UseMvc();

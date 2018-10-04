@@ -16,5 +16,9 @@ namespace Week2
         public static IServiceCollection UseItemsProcessor(this IServiceCollection services){
             return services.AddSingleton<ItemsProcessor>();
         }
+
+        public static IApplicationBuilder UseAuthMiddleware(this IApplicationBuilder builder){
+            return builder.UseMiddleware<AuthMiddleware>();
+        }
     }
 }

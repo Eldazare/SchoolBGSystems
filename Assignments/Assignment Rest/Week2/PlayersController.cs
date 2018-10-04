@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 
@@ -11,7 +12,7 @@ namespace Week2
     [Route("api/[controller]")]
     [ApiController]
     [InvalidPlayerIDFilter]
-    public class PlayersController : ControllerBase
+    public class PlayersController : Controller
     {
         PlayersProcessor processor;
         public PlayersController(PlayersProcessor proc){
@@ -66,14 +67,29 @@ namespace Week2
         public Task<Player> Modify(Guid id, ModifiedPlayer player){
             return processor.Modify(id, player);
         }
-        [HttpDelete("{id}")]
+
+        [HttpGet("ban/{id:guid}")]
+        [Authorize(Roles = "Admin")]
+        [RepoAuditFilter]
+        public Task<Player> BanPlayer(Guid id){
+            return processor.BanPlayer(id);
+        }
+
+        [HttpDelete("{id:guid}")]
+        [Authorize(Roles = "Admin")]
         public Task<Player> Delete(Guid id){
             return processor.Delete(id);
         }
 
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         public Task<bool> DeleteAll(){
             return processor.DeleteAll();
+        }
+
+        [HttpGet("logs")]
+        public Task<string> GetLogs(){
+            return processor.GetLogs();
         }
     }
 }

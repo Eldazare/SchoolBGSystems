@@ -11,12 +11,15 @@ namespace Week2
     {
         private string address = "mongodb://localhost:27017";
         private IMongoCollection<Player> Collection;
+        private IMongoCollection<Log> LogCollection;
         private IMongoCollection<BsonDocument> DocumentsCollection;
         public MongoRepository(){
             var Client = new MongoClient(address);
             IMongoDatabase Database = Client.GetDatabase("NotGame");
             Collection = Database.GetCollection<Player>("players");
             DocumentsCollection = Database.GetCollection<BsonDocument>("players");
+
+            LogCollection = Database.GetCollection<Log>("logs");
         }
 
         public Task<Player> Get(Guid id){
@@ -110,6 +113,17 @@ namespace Week2
                 throw new InvalidPlayerIDException(player.Id.ToString());
             }
         }
+
+        public async Task<Player> BanPlayer (Guid id){
+            var filter = Builders<Player>.Filter.Eq("_id", id);
+            var update = Builders<Player>.Update.Set("IsBanned", true);
+            var result = await Collection.FindOneAndUpdateAsync(filter, update);
+            if (result == null){
+                throw new InvalidPlayerIDException("PlayerID "+id+" not found");
+            }
+            return await Get(id);
+        }
+
         public async Task<Player> Delete(Guid id){
             Player player = Get(id).Result;
             await Collection.DeleteOneAsync(Builders<Player>.Filter.Eq("_id",id));
@@ -160,6 +174,28 @@ namespace Week2
             Console.WriteLine(pipe2.ToList().Count);
             double ret = (await pipe2.FirstAsync()).ScoreG;
             return "Average score for players created between "+startTime+" and "+endTime+" is "+ret;
+        }
+
+
+
+
+
+        public async Task WriteLog(string str){
+            Log log = new Log();
+            log.id = Guid.NewGuid();
+            log.logStr = str;
+            await LogCollection.InsertOneAsync(log);
+        }
+
+        public async Task<string> GetLogs(){
+            var result = LogCollection.Find(_=>true);
+            var resList = await result.ToListAsync();
+            string retList = "";
+            foreach(Log log in resList){
+                retList += log.logStr+Environment.NewLine;
+            }
+            return retList;
+
         }
     }
 }

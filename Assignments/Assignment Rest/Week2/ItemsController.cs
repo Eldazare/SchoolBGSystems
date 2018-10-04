@@ -8,7 +8,7 @@ namespace Week2
     [Route("api/players/{playerId}/[controller]")]
     [ApiController]
     [InvalidPlayerIDFilter]
-    public class ItemsController : ControllerBase
+    public class ItemsController : Controller
     {
         ItemsProcessor processor;
 

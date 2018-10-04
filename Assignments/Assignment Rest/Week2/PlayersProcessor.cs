@@ -47,6 +47,10 @@ namespace Week2
         public Task<Player> Modify(Guid id, ModifiedPlayer player){
             return repository.Modify(id, player);
         }
+
+        public Task<Player> BanPlayer(Guid id){
+            return repository.BanPlayer(id);
+        }
         public Task<Player> Delete(Guid id){
             return repository.Delete(id);
         }
@@ -61,6 +65,10 @@ namespace Week2
 
         public Task<string> GetAverageScorePerDates(DateTime startTime, DateTime endTime){
             return repository.GetAverageScorePerDates(startTime, endTime);
+        }
+
+        public Task<string> GetLogs(){
+            return repository.GetLogs();
         }
     }
 }

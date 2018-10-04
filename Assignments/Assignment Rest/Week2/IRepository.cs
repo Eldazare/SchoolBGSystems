@@ -18,11 +18,16 @@ namespace Week2
         Task<Player> Create(Player player);
         Task<Player> Modify(Guid id, ModifiedPlayer player);
         Task<Player> Replace(Player player);
+        Task<Player> BanPlayer(Guid id);
         Task<Player> Delete(Guid id);
         Task<bool> DeleteAll();
 
         Task<Item> PushItem(Guid id, Item item);
         Task<String> GetCommonLevelBetweenPlayers();
         Task<String> GetAverageScorePerDates(DateTime startTime, DateTime endTime);
+
+        Task WriteLog(string log);
+
+        Task<string> GetLogs();
     }
 }
